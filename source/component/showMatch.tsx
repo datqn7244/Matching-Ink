@@ -6,8 +6,7 @@ const ShowMatch: React.FC<{ text: string; pattern: string }> = ({
 	text,
 	pattern,
 }) => {
-	if (isSyntax(pattern)) {
-		console.log(pattern);
+	if (isSyntax(pattern[0] as string)) {
 		return (
 			<Box borderStyle="double" flexDirection="column" borderColor="red">
 				<Text color="red">
