@@ -5,7 +5,8 @@
 ## Install
 
 ```bash
-$ npm install --global mentura-ink
+$ npm install
+$ npm start
 ```
 
 ## CLI
