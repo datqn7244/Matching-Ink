@@ -25,3 +25,8 @@ $ mentura-ink --help
 	  Given pattern: cd+
 	  The pattern matches
 ```
+
+## Demo
+
+![alt text](https://github.com/datqn7244/Matching-Ink/raw/main/demo/2021-12-06-13-21-36.gif "Demo 1")
+![alt text](https://github.com/datqn7244/Matching-Ink/raw/main/demo/2021-12-06-13-22-16.gif "Demo 2")
