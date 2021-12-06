@@ -7,6 +7,8 @@
 ```bash
 $ npm install
 $ npm start
+$ npm link
+
 ```
 
 ## CLI
@@ -16,6 +18,7 @@ $ mentura-ink --help
 
 	Usage
 	  $ mentura-ink
+	  $ npx mentura-ink
 	Options
 		--text  Your matching text
 		--pattern Your matching pattern
