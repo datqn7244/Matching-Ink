@@ -7,9 +7,12 @@ const ShowMatch: React.FC<{ text: string; pattern: string }> = ({
 	pattern,
 }) => {
 	if (isSyntax(pattern)) {
+		console.log(pattern);
 		return (
-			<Box>
-				<Text>The pattern cannot start with a syntax "?", "+", "*"</Text>;
+			<Box borderStyle="double" flexDirection="column" borderColor="red">
+				<Text color="red">
+					The pattern cannot start with a syntax "?", "+", "*"
+				</Text>
 			</Box>
 		);
 	}
